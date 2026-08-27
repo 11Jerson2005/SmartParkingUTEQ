@@ -18,7 +18,7 @@ import {
 import CIcon from '@coreui/icons-react'
 import { apple } from 'src/assets/brand/apple'
 import { google } from 'src/assets/brand/google'
-import { logo } from 'src/assets/brand/logo'
+import Logo from 'src/assets/brand/logo'
 import { eye } from 'src/assets/icons/eye'
 
 const Login = () => {
@@ -29,7 +29,7 @@ const Login = () => {
           <CCol md={8} lg={6} xl={5}>
             <div className="d-flex flex-column gap-4">
               <div className="text-center">
-                <CIcon icon={logo} height={48} />
+                <Logo height={48} />
               </div>
               <CCard className="p-4">
                 <CCardBody className="d-flex flex-column gap-4">
